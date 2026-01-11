@@ -1,0 +1,63 @@
+/* assets/css/custom-auth.css */
+
+/* Auth Page Wrapper */
+.vh-100 {
+    min-height: 100vh;
+}
+
+/* Image Side */
+.auth-image {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+}
+
+.auth-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.4) 0%, rgba(15, 23, 42, 0.8) 100%);
+    display: flex;
+    align-items: flex-end;
+}
+
+/* Form Side */
+.auth-form-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+}
+
+/* Form Styles */
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label {
+    color: var(--orange-vibrant);
+}
+
+.form-control:focus {
+    border-color: var(--orange-light);
+    box-shadow: 0 0 0 0.25rem rgba(249, 115, 22, 0.15);
+}
+
+.auth-links a {
+    color: var(--navy-medium);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition-fast);
+}
+
+.auth-links a:hover {
+    color: var(--orange-vibrant);
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .auth-image {
+        display: none;
+        /* Hide image on mobile to focus on form */
+    }
+}
