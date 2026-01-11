@@ -23,7 +23,7 @@ TrustFlow is a comprehensive web-based platform designed to streamline operation
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/](https://github.com/Shreyansh1729/trust_flow-software.git
+    git clone https://github.com/](https://github.com/Shreyansh1729/trust_flow-software.git
     cd trustflow
     ```
 
